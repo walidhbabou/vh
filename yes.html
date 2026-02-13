@@ -1,3 +1,9 @@
+        <!-- Message personnalisé animé -->
+        <div class="special-message">لَيلى، أنتِ روحي وقلبي إلى الأبد 💞</div>
+    <!-- Cœurs animés autour de la lettre -->
+    <div class="floating-hearts">
+        <span>💖</span><span>💗</span><span>💓</span><span>💞</span><span>💝</span>
+    </div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,14 +18,23 @@
 <body>
     <div class="hearts-bg"></div>
 
+
     <div class="container yes-container">
         <h1 class="yes-title">Knew you would say yes! 🎉</h1>
-
         <div class="gif-container">
             <img id="cat-gif" src="https://media.tenor.com/eNHbizSfVb0AAAAj/lovemode-cute.gif" alt="celebrating">
         </div>
-
         <p class="yes-message">You just made me the happiest person! 💕</p>
+    </div>
+
+    <!-- Lettre d'amour en arabe et photo -->
+    <div class="love-letter-arabic">
+        <h2>إلى لَيلى في يوم الحب</h2>
+        <p>
+            في هذا اليوم الجميل، أريد أن أخبركِ كم أنتِ مميزة في حياتي. أنتِ النور الذي يضيء أيامي، والدفء الذي يملأ قلبي. كل لحظة معكِ هي هدية، وكل ابتسامة منكِ تجعل العالم أجمل.<br>
+            أحبكِ اليوم، وغداً، ودائماً. عيد حب سعيد يا لَيلى!
+        </p>
+        <img src="WhatsApp%20Image%202026-02-14%20at%2012.12.12%20AM.jpeg" alt="Souvenir avec Laila" class="love-photo">
     </div>
 
     <audio id="bg-music" loop>
@@ -27,6 +42,7 @@
     </audio>
 
     <button id="music-toggle" onclick="toggleMusic()" title="Toggle music">🔊</button>
+    <button id="replay-surprise" onclick="replaySurprise()" title="Rejouer la surprise">🎁 Rejouer la surprise</button>
 
     <script src="yes-script.js"></script>
 </body>
